@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MaxAreaOfIsland::bfs(int, int, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;):max-area-of-island.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "MaxAreaOfIsland::union_find(std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;):max-area-of-island.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "father">
+            </PersistentString>
+            <PersistentString
+               value = "area">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MagicalString::magicalString(int):magical-string.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sub[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
