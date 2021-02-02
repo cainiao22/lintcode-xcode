@@ -3,7 +3,34 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "MaxAreaOfIsland::bfs(int, int, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;):max-area-of-island.cpp">
+         contextName = "Pick_Apples::getWindowMax(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int, int, int):pick-apples.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sum[i] - sum[i-L]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MinimumAsciiDeleteSumForTwoStrings::minimumDeleteSum2(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;):minimum-ascii-delete-sum-for-two-strings.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "RogueKnightSven::cal_dp(int, int):rogue-knight-sven.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "dp[n][i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;::operator[](unsigned long):vector">
+      </ContextState>
+      <ContextState
+         contextName = "MagicalString::magicalString(int):magical-string.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sub[i]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "MaxAreaOfIsland::union_find(std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;):max-area-of-island.cpp">
@@ -17,12 +44,24 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "MagicalString::magicalString(int):magical-string.cpp">
+         contextName = "RogueKnightSven::getNumberOfWaysDP(int, int, int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;):rogue-knight-sven.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Pick_Apples::PickApples(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int, int):pick-apples.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "XORSum::xorSum(std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, int):xor-sum.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "sub[i]">
+               value = "*it">
+            </PersistentString>
+            <PersistentString
+               value = "arr[i][j]">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MaxAreaOfIsland::bfs(int, int, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;):max-area-of-island.cpp">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

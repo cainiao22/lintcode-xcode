@@ -38,9 +38,31 @@
 #include "max-area-of-island.cpp"
 #include "student-attendance-record-ii.cpp"
 #include "scramble-string.cpp"
+#include "k-th-smallest-in-lexicographical-order.cpp"
+#include "range-sum-query-2d-immutable.cpp"
+#include "work-plan.cpp"
+#include "high-click-induction-area.cpp"
+#include "rogue-knight-sven.cpp"
+#include "the-minium-distance.cpp"
+#include "binary-tree-longest-consecutive-sequence-ii.cpp"
+#include "number-of-corner-rectangles.cpp"
+#include "build-a-temple.cpp"
+#include "distinct-subsequences-ii.cpp"
+#include "sequence-count.cpp"
+#include "binary-tree-vertical-order-traversal.cpp"
+#include "minimum-genetic-mutation.cpp"
+#include "minimum-ascii-delete-sum-for-two-strings.cpp"
+#include "pick-apples.cpp"
+#include "best-time-to-buy-and-sell-stock-with-transaction-fee.cpp"
+#include "xor-sum.cpp"
+#include "card-game.cpp"
+#include "bulb-switcher-ii.cpp"
+#include "minimum-falling-path-sum.cpp"
+#include "increasing-triplet-subsequence.cpp"
+#include "count-negative-number.cpp"
 
 int main(int argc, const char * argv[]) {
-    ScrambleString a;
+    count_negative_number a;
     a.run();
     return 0;
 }

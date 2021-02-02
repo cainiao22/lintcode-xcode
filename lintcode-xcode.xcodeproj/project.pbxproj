@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9050AA624D27B4D009EACC9 /* number-of-corner-rectangles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9050AA524D27B4D009EACC9 /* number-of-corner-rectangles.cpp */; };
+		B9050AA824D411C5009EACC9 /* build-a-temple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9050AA724D411C5009EACC9 /* build-a-temple.cpp */; };
+		B9050AAA24D41AAB009EACC9 /* distinct-subsequences-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9050AA924D41AAA009EACC9 /* distinct-subsequences-ii.cpp */; };
+		B9050AAC24D80682009EACC9 /* sequence-count.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9050AAB24D80682009EACC9 /* sequence-count.cpp */; };
 		B922B2F42386C15C00117EB4 /* reverse-words-in-a-string-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B922B2F22386C15C00117EB4 /* reverse-words-in-a-string-ii.cpp */; };
+		B92A0FC825C7D1B200D7758B /* bulb-switcher-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FC725C7D1B200D7758B /* bulb-switcher-ii.cpp */; };
+		B92A0FCA25C7F5F100D7758B /* minimum-falling-path-sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FC925C7F5F100D7758B /* minimum-falling-path-sum.cpp */; };
+		B92A0FCC25C9354100D7758B /* increasing-triplet-subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FCB25C9354100D7758B /* increasing-triplet-subsequence.cpp */; };
+		B92A0FCE25C9471700D7758B /* count-negative-number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FCD25C9471700D7758B /* count-negative-number.cpp */; };
 		B93A40B723726F16002ECE5B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93A40B623726F16002ECE5B /* main.cpp */; };
 		B93A40C1237280E3002ECE5B /* substring-with-at-least-k-distinct-characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93A40BF237280E3002ECE5B /* substring-with-at-least-k-distinct-characters.cpp */; };
 		B93A40C42373B6F7002ECE5B /* equal-tree-partition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93A40C22373B6F7002ECE5B /* equal-tree-partition.cpp */; };
 		B93A40C7237434C8002ECE5B /* output-contest-matches.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93A40C6237434C8002ECE5B /* output-contest-matches.cpp */; };
 		B93A40C923750BCE002ECE5B /* count-of-smaller-numbers-after-self.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93A40C823750BCE002ECE5B /* count-of-smaller-numbers-after-self.cpp */; };
+		B9484AF02490F8D5003D86CA /* rogue-knight-sven.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9484AEF2490F8D5003D86CA /* rogue-knight-sven.cpp */; };
+		B94E550925303D26008BF568 /* minimum-genetic-mutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B94E550825303D26008BF568 /* minimum-genetic-mutation.cpp */; };
 		B95315FB23A38C700065FD50 /* find-the-closest-palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B95315FA23A38C700065FD50 /* find-the-closest-palindrome.cpp */; };
 		B95F354F23CC72E200A1D321 /* global-and-local-inversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B95F354E23CC72E200A1D321 /* global-and-local-inversions.cpp */; };
+		B96156E2247E399A001A55CD /* high-click-induction-area.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96156E1247E399A001A55CD /* high-click-induction-area.cpp */; };
+		B9673177246CE1CB00F5C0A9 /* k-th-smallest-in-lexicographical-order.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9673176246CE1CB00F5C0A9 /* k-th-smallest-in-lexicographical-order.cpp */; };
+		B96731792473E78500F5C0A9 /* range-sum-query-2d-immutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96731782473E78500F5C0A9 /* range-sum-query-2d-immutable.cpp */; };
+		B967317B247504B500F5C0A9 /* work-plan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B967317A247504B500F5C0A9 /* work-plan.cpp */; };
+		B9714D3F255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9714D3E255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp */; };
+		B9714D4125625DF200629444 /* pick-apples.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9714D4025625DF200629444 /* pick-apples.cpp */; };
 		B972D3B92387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B972D3B82387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp */; };
+		B974256D2521E45E00B9A05D /* binary-tree-vertical-order-traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B974256C2521E45E00B9A05D /* binary-tree-vertical-order-traversal.cpp */; };
+		B997FC6124A198930043E7F1 /* the-minium-distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B997FC6024A198930043E7F1 /* the-minium-distance.cpp */; };
 		B9B5209E24320ECB001E3A6F /* magical-string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B5209D24320ECB001E3A6F /* magical-string.cpp */; };
 		B9B520A0243481C9001E3A6F /* last-position-of-target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B5209F243481C8001E3A6F /* last-position-of-target.cpp */; };
 		B9B520A224348743001E3A6F /* max-area-of-island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B520A124348743001E3A6F /* max-area-of-island.cpp */; };
@@ -24,6 +42,9 @@
 		B9B6A69E23B313C600057961 /* beautiful-array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B6A69D23B313C600057961 /* beautiful-array.cpp */; };
 		B9B6A6A023B4DEA900057961 /* queue-reconstruction-by-height.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B6A69F23B4DEA900057961 /* queue-reconstruction-by-height.cpp */; };
 		B9C1A711244839BB008B3F8D /* scramble-string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9C1A710244839BB008B3F8D /* scramble-string.cpp */; };
+		B9D7C86C25653F4E00A25F79 /* best-time-to-buy-and-sell-stock-with-transaction-fee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9D7C86B25653F4E00A25F79 /* best-time-to-buy-and-sell-stock-with-transaction-fee.cpp */; };
+		B9D7C86E2566452700A25F79 /* xor-sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9D7C86D2566452700A25F79 /* xor-sum.cpp */; };
+		B9D7C870256E31B100A25F79 /* card-game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9D7C86F256E31B100A25F79 /* card-game.cpp */; };
 		B9DD576123D186B30022DA1D /* consecutive-numbers-sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DD576023D186B30022DA1D /* consecutive-numbers-sum.cpp */; };
 		B9DD576323D19CEA0022DA1D /* rle-iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DD576223D19CEA0022DA1D /* rle-iterator.cpp */; };
 		B9DD576523D1A1750022DA1D /* couples-holding-hands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DD576423D1A1750022DA1D /* couples-holding-hands.cpp */; };
@@ -37,6 +58,7 @@
 		B9DF57C323C3318B0072E75A /* best-meeting-point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DF57C223C3318B0072E75A /* best-meeting-point.cpp */; };
 		B9DF57C523C46EED0072E75A /* interval-sum-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DF57C423C46EED0072E75A /* interval-sum-ii.cpp */; };
 		B9DF57C723C4AF030072E75A /* can-i-win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DF57C623C4AF020072E75A /* can-i-win.cpp */; };
+		B9FA66DE24BF235800F70296 /* binary-tree-longest-consecutive-sequence-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9FA66DD24BF235800F70296 /* binary-tree-longest-consecutive-sequence-ii.cpp */; };
 		B9FAC1B82394A3A7008EE75B /* reconstruct-original-digits-from-english.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9FAC1B72394A3A7008EE75B /* reconstruct-original-digits-from-english.cpp */; };
 		B9FAC1BA23963F4D008EE75B /* lexicographical-numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9FAC1B923963F4D008EE75B /* lexicographical-numbers.cpp */; };
 		B9FAC1BC2397642B008EE75B /* longest-mountain-in-array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9FAC1BB2397642B008EE75B /* longest-mountain-in-array.cpp */; };
@@ -56,7 +78,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B9050AA524D27B4D009EACC9 /* number-of-corner-rectangles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "number-of-corner-rectangles.cpp"; sourceTree = "<group>"; };
+		B9050AA724D411C5009EACC9 /* build-a-temple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "build-a-temple.cpp"; sourceTree = "<group>"; };
+		B9050AA924D41AAA009EACC9 /* distinct-subsequences-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "distinct-subsequences-ii.cpp"; sourceTree = "<group>"; };
+		B9050AAB24D80682009EACC9 /* sequence-count.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "sequence-count.cpp"; sourceTree = "<group>"; };
 		B922B2F22386C15C00117EB4 /* reverse-words-in-a-string-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-words-in-a-string-ii.cpp"; sourceTree = "<group>"; };
+		B92A0FC725C7D1B200D7758B /* bulb-switcher-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "bulb-switcher-ii.cpp"; sourceTree = "<group>"; };
+		B92A0FC925C7F5F100D7758B /* minimum-falling-path-sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "minimum-falling-path-sum.cpp"; sourceTree = "<group>"; };
+		B92A0FCB25C9354100D7758B /* increasing-triplet-subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "increasing-triplet-subsequence.cpp"; sourceTree = "<group>"; };
+		B92A0FCD25C9471700D7758B /* count-negative-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "count-negative-number.cpp"; sourceTree = "<group>"; };
 		B93A40B323726F16002ECE5B /* lintcode-xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lintcode-xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93A40B623726F16002ECE5B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B93A40BF237280E3002ECE5B /* substring-with-at-least-k-distinct-characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "substring-with-at-least-k-distinct-characters.cpp"; sourceTree = "<group>"; };
@@ -64,9 +94,19 @@
 		B93A40C52373B8CA002ECE5B /* CommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
 		B93A40C6237434C8002ECE5B /* output-contest-matches.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "output-contest-matches.cpp"; sourceTree = "<group>"; };
 		B93A40C823750BCE002ECE5B /* count-of-smaller-numbers-after-self.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "count-of-smaller-numbers-after-self.cpp"; sourceTree = "<group>"; };
+		B9484AEF2490F8D5003D86CA /* rogue-knight-sven.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "rogue-knight-sven.cpp"; sourceTree = "<group>"; };
+		B94E550825303D26008BF568 /* minimum-genetic-mutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "minimum-genetic-mutation.cpp"; sourceTree = "<group>"; };
 		B95315FA23A38C700065FD50 /* find-the-closest-palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "find-the-closest-palindrome.cpp"; sourceTree = "<group>"; };
 		B95F354E23CC72E200A1D321 /* global-and-local-inversions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "global-and-local-inversions.cpp"; sourceTree = "<group>"; };
+		B96156E1247E399A001A55CD /* high-click-induction-area.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "high-click-induction-area.cpp"; sourceTree = "<group>"; };
+		B9673176246CE1CB00F5C0A9 /* k-th-smallest-in-lexicographical-order.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "k-th-smallest-in-lexicographical-order.cpp"; sourceTree = "<group>"; };
+		B96731782473E78500F5C0A9 /* range-sum-query-2d-immutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "range-sum-query-2d-immutable.cpp"; sourceTree = "<group>"; };
+		B967317A247504B500F5C0A9 /* work-plan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "work-plan.cpp"; sourceTree = "<group>"; };
+		B9714D3E255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "minimum-ascii-delete-sum-for-two-strings.cpp"; sourceTree = "<group>"; };
+		B9714D4025625DF200629444 /* pick-apples.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "pick-apples.cpp"; sourceTree = "<group>"; };
 		B972D3B82387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "cut-off-trees-for-golf-event.cpp"; sourceTree = "<group>"; };
+		B974256C2521E45E00B9A05D /* binary-tree-vertical-order-traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "binary-tree-vertical-order-traversal.cpp"; sourceTree = "<group>"; };
+		B997FC6024A198930043E7F1 /* the-minium-distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "the-minium-distance.cpp"; sourceTree = "<group>"; };
 		B9B5209D24320ECB001E3A6F /* magical-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "magical-string.cpp"; sourceTree = "<group>"; };
 		B9B5209F243481C8001E3A6F /* last-position-of-target.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "last-position-of-target.cpp"; sourceTree = "<group>"; };
 		B9B520A124348743001E3A6F /* max-area-of-island.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "max-area-of-island.cpp"; sourceTree = "<group>"; };
@@ -75,6 +115,9 @@
 		B9B6A69D23B313C600057961 /* beautiful-array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "beautiful-array.cpp"; sourceTree = "<group>"; };
 		B9B6A69F23B4DEA900057961 /* queue-reconstruction-by-height.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "queue-reconstruction-by-height.cpp"; sourceTree = "<group>"; };
 		B9C1A710244839BB008B3F8D /* scramble-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "scramble-string.cpp"; sourceTree = "<group>"; };
+		B9D7C86B25653F4E00A25F79 /* best-time-to-buy-and-sell-stock-with-transaction-fee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "best-time-to-buy-and-sell-stock-with-transaction-fee.cpp"; sourceTree = "<group>"; };
+		B9D7C86D2566452700A25F79 /* xor-sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "xor-sum.cpp"; sourceTree = "<group>"; };
+		B9D7C86F256E31B100A25F79 /* card-game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "card-game.cpp"; sourceTree = "<group>"; };
 		B9DD576023D186B30022DA1D /* consecutive-numbers-sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "consecutive-numbers-sum.cpp"; sourceTree = "<group>"; };
 		B9DD576223D19CEA0022DA1D /* rle-iterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "rle-iterator.cpp"; sourceTree = "<group>"; };
 		B9DD576423D1A1750022DA1D /* couples-holding-hands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "couples-holding-hands.cpp"; sourceTree = "<group>"; };
@@ -88,6 +131,7 @@
 		B9DF57C223C3318B0072E75A /* best-meeting-point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "best-meeting-point.cpp"; sourceTree = "<group>"; };
 		B9DF57C423C46EED0072E75A /* interval-sum-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "interval-sum-ii.cpp"; sourceTree = "<group>"; };
 		B9DF57C623C4AF020072E75A /* can-i-win.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "can-i-win.cpp"; sourceTree = "<group>"; };
+		B9FA66DD24BF235800F70296 /* binary-tree-longest-consecutive-sequence-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "binary-tree-longest-consecutive-sequence-ii.cpp"; sourceTree = "<group>"; };
 		B9FAC1B72394A3A7008EE75B /* reconstruct-original-digits-from-english.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reconstruct-original-digits-from-english.cpp"; sourceTree = "<group>"; };
 		B9FAC1B923963F4D008EE75B /* lexicographical-numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "lexicographical-numbers.cpp"; sourceTree = "<group>"; };
 		B9FAC1BB2397642B008EE75B /* longest-mountain-in-array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "longest-mountain-in-array.cpp"; sourceTree = "<group>"; };
@@ -159,6 +203,28 @@
 				B9B520A124348743001E3A6F /* max-area-of-island.cpp */,
 				B9B520A32435CE76001E3A6F /* student-attendance-record-ii.cpp */,
 				B9C1A710244839BB008B3F8D /* scramble-string.cpp */,
+				B9673176246CE1CB00F5C0A9 /* k-th-smallest-in-lexicographical-order.cpp */,
+				B96731782473E78500F5C0A9 /* range-sum-query-2d-immutable.cpp */,
+				B967317A247504B500F5C0A9 /* work-plan.cpp */,
+				B96156E1247E399A001A55CD /* high-click-induction-area.cpp */,
+				B9484AEF2490F8D5003D86CA /* rogue-knight-sven.cpp */,
+				B997FC6024A198930043E7F1 /* the-minium-distance.cpp */,
+				B9FA66DD24BF235800F70296 /* binary-tree-longest-consecutive-sequence-ii.cpp */,
+				B9050AA524D27B4D009EACC9 /* number-of-corner-rectangles.cpp */,
+				B9050AA724D411C5009EACC9 /* build-a-temple.cpp */,
+				B9050AA924D41AAA009EACC9 /* distinct-subsequences-ii.cpp */,
+				B9050AAB24D80682009EACC9 /* sequence-count.cpp */,
+				B974256C2521E45E00B9A05D /* binary-tree-vertical-order-traversal.cpp */,
+				B94E550825303D26008BF568 /* minimum-genetic-mutation.cpp */,
+				B9714D3E255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp */,
+				B9714D4025625DF200629444 /* pick-apples.cpp */,
+				B9D7C86B25653F4E00A25F79 /* best-time-to-buy-and-sell-stock-with-transaction-fee.cpp */,
+				B9D7C86D2566452700A25F79 /* xor-sum.cpp */,
+				B9D7C86F256E31B100A25F79 /* card-game.cpp */,
+				B92A0FC725C7D1B200D7758B /* bulb-switcher-ii.cpp */,
+				B92A0FC925C7F5F100D7758B /* minimum-falling-path-sum.cpp */,
+				B92A0FCB25C9354100D7758B /* increasing-triplet-subsequence.cpp */,
+				B92A0FCD25C9471700D7758B /* count-negative-number.cpp */,
 			);
 			path = "lintcode-xcode";
 			sourceTree = "<group>";
@@ -220,40 +286,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94E550925303D26008BF568 /* minimum-genetic-mutation.cpp in Sources */,
+				B9484AF02490F8D5003D86CA /* rogue-knight-sven.cpp in Sources */,
+				B9D7C86E2566452700A25F79 /* xor-sum.cpp in Sources */,
 				B9B520A0243481C9001E3A6F /* last-position-of-target.cpp in Sources */,
 				B9DF57C323C3318B0072E75A /* best-meeting-point.cpp in Sources */,
 				B9B5209E24320ECB001E3A6F /* magical-string.cpp in Sources */,
+				B9714D4125625DF200629444 /* pick-apples.cpp in Sources */,
 				B922B2F42386C15C00117EB4 /* reverse-words-in-a-string-ii.cpp in Sources */,
 				B95315FB23A38C700065FD50 /* find-the-closest-palindrome.cpp in Sources */,
+				B92A0FCA25C7F5F100D7758B /* minimum-falling-path-sum.cpp in Sources */,
 				B93A40C42373B6F7002ECE5B /* equal-tree-partition.cpp in Sources */,
+				B96731792473E78500F5C0A9 /* range-sum-query-2d-immutable.cpp in Sources */,
+				B9050AA824D411C5009EACC9 /* build-a-temple.cpp in Sources */,
 				B9DD576523D1A1750022DA1D /* couples-holding-hands.cpp in Sources */,
 				B9B6A6A023B4DEA900057961 /* queue-reconstruction-by-height.cpp in Sources */,
 				B9FAC1BE2397D92D008EE75B /* sliding-window-median.cpp in Sources */,
 				B95F354F23CC72E200A1D321 /* global-and-local-inversions.cpp in Sources */,
 				B93A40C1237280E3002ECE5B /* substring-with-at-least-k-distinct-characters.cpp in Sources */,
+				B9050AAC24D80682009EACC9 /* sequence-count.cpp in Sources */,
 				B9B6A69E23B313C600057961 /* beautiful-array.cpp in Sources */,
+				B9050AA624D27B4D009EACC9 /* number-of-corner-rectangles.cpp in Sources */,
 				B9DD576123D186B30022DA1D /* consecutive-numbers-sum.cpp in Sources */,
 				B93A40B723726F16002ECE5B /* main.cpp in Sources */,
 				B9FAC1B82394A3A7008EE75B /* reconstruct-original-digits-from-english.cpp in Sources */,
 				B9B6A69C23B20B4A00057961 /* trim-a-binary-search-tree.cpp in Sources */,
+				B92A0FCC25C9354100D7758B /* increasing-triplet-subsequence.cpp in Sources */,
 				B9FAC1BA23963F4D008EE75B /* lexicographical-numbers.cpp in Sources */,
+				B9050AAA24D41AAB009EACC9 /* distinct-subsequences-ii.cpp in Sources */,
 				B9FAC1BC2397642B008EE75B /* longest-mountain-in-array.cpp in Sources */,
 				B9DD576923D829230022DA1D /* convert-binary-search-tree-to-sorted-doubly-linked-list.cpp in Sources */,
+				B967317B247504B500F5C0A9 /* work-plan.cpp in Sources */,
 				B9DF57C123BF56AC0072E75A /* minimum-time-difference.cpp in Sources */,
 				B9DF57C523C46EED0072E75A /* interval-sum-ii.cpp in Sources */,
+				B92A0FCE25C9471700D7758B /* count-negative-number.cpp in Sources */,
 				B9DD576323D19CEA0022DA1D /* rle-iterator.cpp in Sources */,
+				B9D7C86C25653F4E00A25F79 /* best-time-to-buy-and-sell-stock-with-transaction-fee.cpp in Sources */,
 				B9DD576D23D842080022DA1D /* longest-subsequence.cpp in Sources */,
 				B93A40C7237434C8002ECE5B /* output-contest-matches.cpp in Sources */,
 				B9DD576F23D84A960022DA1D /* reach-a-number.cpp in Sources */,
+				B974256D2521E45E00B9A05D /* binary-tree-vertical-order-traversal.cpp in Sources */,
 				B9DD576B23D83B460022DA1D /* minimum-add-to-make-parentheses-valid.cpp in Sources */,
+				B9714D3F255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp in Sources */,
+				B9D7C870256E31B100A25F79 /* card-game.cpp in Sources */,
+				B92A0FC825C7D1B200D7758B /* bulb-switcher-ii.cpp in Sources */,
 				B972D3B92387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp in Sources */,
 				B9C1A711244839BB008B3F8D /* scramble-string.cpp in Sources */,
 				B9DD576723D487EE0022DA1D /* domino-and-tromino-tiling.cpp in Sources */,
 				B9B520A42435CE76001E3A6F /* student-attendance-record-ii.cpp in Sources */,
 				B9DF57C723C4AF030072E75A /* can-i-win.cpp in Sources */,
 				B9B520A224348743001E3A6F /* max-area-of-island.cpp in Sources */,
+				B9FA66DE24BF235800F70296 /* binary-tree-longest-consecutive-sequence-ii.cpp in Sources */,
 				B93A40C923750BCE002ECE5B /* count-of-smaller-numbers-after-self.cpp in Sources */,
+				B96156E2247E399A001A55CD /* high-click-induction-area.cpp in Sources */,
+				B997FC6124A198930043E7F1 /* the-minium-distance.cpp in Sources */,
 				B9DD577123D97E9C0022DA1D /* orderly-queue.cpp in Sources */,
+				B9673177246CE1CB00F5C0A9 /* k-th-smallest-in-lexicographical-order.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
