@@ -46,7 +46,20 @@ class count_negative_number
 public:
     int countNumber(vector<vector<int>> &nums)
     {
+        size_t n = nums.size();
+        size_t m = nums[0].size();
+        int index = (int)m - 1;
+        int ans = 0;
+        for(int i=0; i<n; i++)
+        {
+            while(index > 0 && nums[i][index] > 0)
+            {
+                index --;
+            }
+            ans += index + 1;
+        }
         
+        return ans;
     }
     
     void run()

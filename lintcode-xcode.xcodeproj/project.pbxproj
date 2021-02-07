@@ -16,6 +16,10 @@
 		B92A0FCA25C7F5F100D7758B /* minimum-falling-path-sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FC925C7F5F100D7758B /* minimum-falling-path-sum.cpp */; };
 		B92A0FCC25C9354100D7758B /* increasing-triplet-subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FCB25C9354100D7758B /* increasing-triplet-subsequence.cpp */; };
 		B92A0FCE25C9471700D7758B /* count-negative-number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FCD25C9471700D7758B /* count-negative-number.cpp */; };
+		B92A0FD025C9579D00D7758B /* majority-number-iii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FCF25C9579D00D7758B /* majority-number-iii.cpp */; };
+		B92A0FD225CFD6F200D7758B /* shortest-subarray-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FD125CFD6F200D7758B /* shortest-subarray-ii.cpp */; };
+		B92A0FD425CFDDF400D7758B /* single-number-iii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FD325CFDDF400D7758B /* single-number-iii.cpp */; };
+		B92A0FD625CFE24100D7758B /* previous-permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92A0FD525CFE24100D7758B /* previous-permutation.cpp */; };
 		B93A40B723726F16002ECE5B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93A40B623726F16002ECE5B /* main.cpp */; };
 		B93A40C1237280E3002ECE5B /* substring-with-at-least-k-distinct-characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93A40BF237280E3002ECE5B /* substring-with-at-least-k-distinct-characters.cpp */; };
 		B93A40C42373B6F7002ECE5B /* equal-tree-partition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93A40C22373B6F7002ECE5B /* equal-tree-partition.cpp */; };
@@ -87,6 +91,10 @@
 		B92A0FC925C7F5F100D7758B /* minimum-falling-path-sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "minimum-falling-path-sum.cpp"; sourceTree = "<group>"; };
 		B92A0FCB25C9354100D7758B /* increasing-triplet-subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "increasing-triplet-subsequence.cpp"; sourceTree = "<group>"; };
 		B92A0FCD25C9471700D7758B /* count-negative-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "count-negative-number.cpp"; sourceTree = "<group>"; };
+		B92A0FCF25C9579D00D7758B /* majority-number-iii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "majority-number-iii.cpp"; sourceTree = "<group>"; };
+		B92A0FD125CFD6F200D7758B /* shortest-subarray-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "shortest-subarray-ii.cpp"; sourceTree = "<group>"; };
+		B92A0FD325CFDDF400D7758B /* single-number-iii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "single-number-iii.cpp"; sourceTree = "<group>"; };
+		B92A0FD525CFE24100D7758B /* previous-permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "previous-permutation.cpp"; sourceTree = "<group>"; };
 		B93A40B323726F16002ECE5B /* lintcode-xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lintcode-xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93A40B623726F16002ECE5B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B93A40BF237280E3002ECE5B /* substring-with-at-least-k-distinct-characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "substring-with-at-least-k-distinct-characters.cpp"; sourceTree = "<group>"; };
@@ -225,6 +233,10 @@
 				B92A0FC925C7F5F100D7758B /* minimum-falling-path-sum.cpp */,
 				B92A0FCB25C9354100D7758B /* increasing-triplet-subsequence.cpp */,
 				B92A0FCD25C9471700D7758B /* count-negative-number.cpp */,
+				B92A0FCF25C9579D00D7758B /* majority-number-iii.cpp */,
+				B92A0FD125CFD6F200D7758B /* shortest-subarray-ii.cpp */,
+				B92A0FD325CFDDF400D7758B /* single-number-iii.cpp */,
+				B92A0FD525CFE24100D7758B /* previous-permutation.cpp */,
 			);
 			path = "lintcode-xcode";
 			sourceTree = "<group>";
@@ -317,6 +329,7 @@
 				B9FAC1BC2397642B008EE75B /* longest-mountain-in-array.cpp in Sources */,
 				B9DD576923D829230022DA1D /* convert-binary-search-tree-to-sorted-doubly-linked-list.cpp in Sources */,
 				B967317B247504B500F5C0A9 /* work-plan.cpp in Sources */,
+				B92A0FD625CFE24100D7758B /* previous-permutation.cpp in Sources */,
 				B9DF57C123BF56AC0072E75A /* minimum-time-difference.cpp in Sources */,
 				B9DF57C523C46EED0072E75A /* interval-sum-ii.cpp in Sources */,
 				B92A0FCE25C9471700D7758B /* count-negative-number.cpp in Sources */,
@@ -331,12 +344,15 @@
 				B9D7C870256E31B100A25F79 /* card-game.cpp in Sources */,
 				B92A0FC825C7D1B200D7758B /* bulb-switcher-ii.cpp in Sources */,
 				B972D3B92387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp in Sources */,
+				B92A0FD025C9579D00D7758B /* majority-number-iii.cpp in Sources */,
 				B9C1A711244839BB008B3F8D /* scramble-string.cpp in Sources */,
+				B92A0FD425CFDDF400D7758B /* single-number-iii.cpp in Sources */,
 				B9DD576723D487EE0022DA1D /* domino-and-tromino-tiling.cpp in Sources */,
 				B9B520A42435CE76001E3A6F /* student-attendance-record-ii.cpp in Sources */,
 				B9DF57C723C4AF030072E75A /* can-i-win.cpp in Sources */,
 				B9B520A224348743001E3A6F /* max-area-of-island.cpp in Sources */,
 				B9FA66DE24BF235800F70296 /* binary-tree-longest-consecutive-sequence-ii.cpp in Sources */,
+				B92A0FD225CFD6F200D7758B /* shortest-subarray-ii.cpp in Sources */,
 				B93A40C923750BCE002ECE5B /* count-of-smaller-numbers-after-self.cpp in Sources */,
 				B96156E2247E399A001A55CD /* high-click-induction-area.cpp in Sources */,
 				B997FC6124A198930043E7F1 /* the-minium-distance.cpp in Sources */,
