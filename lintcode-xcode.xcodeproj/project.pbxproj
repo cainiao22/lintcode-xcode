@@ -33,6 +33,9 @@
 		B9673177246CE1CB00F5C0A9 /* k-th-smallest-in-lexicographical-order.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9673176246CE1CB00F5C0A9 /* k-th-smallest-in-lexicographical-order.cpp */; };
 		B96731792473E78500F5C0A9 /* range-sum-query-2d-immutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96731782473E78500F5C0A9 /* range-sum-query-2d-immutable.cpp */; };
 		B967317B247504B500F5C0A9 /* work-plan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B967317A247504B500F5C0A9 /* work-plan.cpp */; };
+		B96F228525D12B330087AFF7 /* next-permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96F228425D12B330087AFF7 /* next-permutation.cpp */; };
+		B96F228725D13BFE0087AFF7 /* reorder-list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96F228625D13BFE0087AFF7 /* reorder-list.cpp */; };
+		B96F228925D26FD80087AFF7 /* word-break.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96F228825D26FD80087AFF7 /* word-break.cpp */; };
 		B9714D3F255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9714D3E255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp */; };
 		B9714D4125625DF200629444 /* pick-apples.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9714D4025625DF200629444 /* pick-apples.cpp */; };
 		B972D3B92387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B972D3B82387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp */; };
@@ -110,6 +113,9 @@
 		B9673176246CE1CB00F5C0A9 /* k-th-smallest-in-lexicographical-order.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "k-th-smallest-in-lexicographical-order.cpp"; sourceTree = "<group>"; };
 		B96731782473E78500F5C0A9 /* range-sum-query-2d-immutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "range-sum-query-2d-immutable.cpp"; sourceTree = "<group>"; };
 		B967317A247504B500F5C0A9 /* work-plan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "work-plan.cpp"; sourceTree = "<group>"; };
+		B96F228425D12B330087AFF7 /* next-permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "next-permutation.cpp"; sourceTree = "<group>"; };
+		B96F228625D13BFE0087AFF7 /* reorder-list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reorder-list.cpp"; sourceTree = "<group>"; };
+		B96F228825D26FD80087AFF7 /* word-break.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "word-break.cpp"; sourceTree = "<group>"; };
 		B9714D3E255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "minimum-ascii-delete-sum-for-two-strings.cpp"; sourceTree = "<group>"; };
 		B9714D4025625DF200629444 /* pick-apples.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "pick-apples.cpp"; sourceTree = "<group>"; };
 		B972D3B82387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "cut-off-trees-for-golf-event.cpp"; sourceTree = "<group>"; };
@@ -237,6 +243,9 @@
 				B92A0FD125CFD6F200D7758B /* shortest-subarray-ii.cpp */,
 				B92A0FD325CFDDF400D7758B /* single-number-iii.cpp */,
 				B92A0FD525CFE24100D7758B /* previous-permutation.cpp */,
+				B96F228425D12B330087AFF7 /* next-permutation.cpp */,
+				B96F228625D13BFE0087AFF7 /* reorder-list.cpp */,
+				B96F228825D26FD80087AFF7 /* word-break.cpp */,
 			);
 			path = "lintcode-xcode";
 			sourceTree = "<group>";
@@ -319,6 +328,7 @@
 				B9050AAC24D80682009EACC9 /* sequence-count.cpp in Sources */,
 				B9B6A69E23B313C600057961 /* beautiful-array.cpp in Sources */,
 				B9050AA624D27B4D009EACC9 /* number-of-corner-rectangles.cpp in Sources */,
+				B96F228925D26FD80087AFF7 /* word-break.cpp in Sources */,
 				B9DD576123D186B30022DA1D /* consecutive-numbers-sum.cpp in Sources */,
 				B93A40B723726F16002ECE5B /* main.cpp in Sources */,
 				B9FAC1B82394A3A7008EE75B /* reconstruct-original-digits-from-english.cpp in Sources */,
@@ -327,6 +337,7 @@
 				B9FAC1BA23963F4D008EE75B /* lexicographical-numbers.cpp in Sources */,
 				B9050AAA24D41AAB009EACC9 /* distinct-subsequences-ii.cpp in Sources */,
 				B9FAC1BC2397642B008EE75B /* longest-mountain-in-array.cpp in Sources */,
+				B96F228525D12B330087AFF7 /* next-permutation.cpp in Sources */,
 				B9DD576923D829230022DA1D /* convert-binary-search-tree-to-sorted-doubly-linked-list.cpp in Sources */,
 				B967317B247504B500F5C0A9 /* work-plan.cpp in Sources */,
 				B92A0FD625CFE24100D7758B /* previous-permutation.cpp in Sources */,
@@ -342,6 +353,7 @@
 				B9DD576B23D83B460022DA1D /* minimum-add-to-make-parentheses-valid.cpp in Sources */,
 				B9714D3F255E35A100629444 /* minimum-ascii-delete-sum-for-two-strings.cpp in Sources */,
 				B9D7C870256E31B100A25F79 /* card-game.cpp in Sources */,
+				B96F228725D13BFE0087AFF7 /* reorder-list.cpp in Sources */,
 				B92A0FC825C7D1B200D7758B /* bulb-switcher-ii.cpp in Sources */,
 				B972D3B92387D8EE0084A14B /* cut-off-trees-for-golf-event.cpp in Sources */,
 				B92A0FD025C9579D00D7758B /* majority-number-iii.cpp in Sources */,

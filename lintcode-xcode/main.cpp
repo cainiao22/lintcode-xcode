@@ -61,9 +61,12 @@
 #include "increasing-triplet-subsequence.cpp"
 #include "count-negative-number.cpp"
 #include "shortest-subarray-ii.cpp"
+#include "previous-permutation.cpp"
+#include "next-permutation.cpp"
+#include "reorder-list.cpp"
 
 int main(int argc, const char * argv[]) {
-    ShortestSubarrayII a;
+    ReOrderList a;
     a.run();
     return 0;
 }

@@ -35,7 +35,7 @@ public:
     
     vector<int> singleNumberIII(vector<int> &A)
     {
-        long x = 0,  y = 0;
+        int x = 0,  y = 0;
         for(int i=0; i<A.size(); i++)
         {
             x = x ^ A[i];
@@ -60,6 +60,6 @@ public:
     void run()
     {
         vector<int> A({1,1,2,3,4,4});
-        cout<<this->singleNumberIII(A)<<endl;
+        
     }
 };
