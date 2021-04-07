@@ -28,6 +28,35 @@ public:
     
     bool wordBreak(string &s, unordered_set<string> &wordSet)
     {
+        bool dp[s.size() + 1];
+        dp[0] = true;
+        for(int i=1; i<=s.size(); i++)
+        {
+            int j=0;
+            for(; j<i; j++)
+            {
+                if(!dp[j])
+                {
+                    continue;
+                }
+                string sub = s.substr(j, i-j);
+                if(wordSet.find(sub) != wordSet.end())
+                {
+                    dp[i] = true;
+                    break;
+                }
+            }
+            if(j >= i)
+            {
+                dp[i] = false;
+            }
+        }
+        
+        return dp[s.size()];
+    }
+    
+    bool dfs(vector<string> &container, unordered_set<string> &wordSet)
+    {
         return false;
     }
     

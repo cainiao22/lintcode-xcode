@@ -64,9 +64,16 @@
 #include "previous-permutation.cpp"
 #include "next-permutation.cpp"
 #include "reorder-list.cpp"
+#include "n-queens-ii.cpp"
+#include "minimum-type-way.cpp"
+#include "cutting-metal-surplus.cpp"
+#include "as-far-from-land-as-possible.cpp"
+#include "lifting-weights.cpp"
+#include "smart-sale.cpp"
+#include "order-allocation.cpp"
 
 int main(int argc, const char * argv[]) {
-    ReOrderList a;
+    OrderAllocation a;
     a.run();
     return 0;
 }
