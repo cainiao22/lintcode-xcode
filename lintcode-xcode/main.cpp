@@ -71,9 +71,11 @@
 #include "lifting-weights.cpp"
 #include "smart-sale.cpp"
 #include "order-allocation.cpp"
+#include "travel-plan.cpp"
+#include "palindrome-partitioning.cpp"
 
 int main(int argc, const char * argv[]) {
-    OrderAllocation a;
+    PalindromePartitioning a;
     a.run();
     return 0;
 }

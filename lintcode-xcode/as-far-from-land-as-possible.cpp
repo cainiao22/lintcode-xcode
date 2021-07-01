@@ -48,12 +48,12 @@ public:
     int dx[4] = {0, 1, 0, -1};
     int dy[4] = {1, 0, -1, 0};
     int INF = 0xfffffff;
-    int maxDistance1(vector<vector<int>> &grid)
+    int maxDistance1(vector<vector<int> > &grid)
     {
         int result = -1;
         int m = (int)grid.size();
         int n = (int)grid[0].size();
-        vector<vector<int>> dp;
+        vector<vector<int> > dp;
         for(int i=0; i<grid.size(); i++)
         {
             dp.push_back(vector<int>(grid[i].size()));
@@ -69,9 +69,9 @@ public:
             {
                 if(grid[i][j] == 1)
                 {
-                    queue<vector<int>> q;
+                    queue<vector<int> > q;
                     set<int> s;
-                    q.push(vector<int>{i, j});
+                    q.push(vector<int> ({i, j}));
                     while(!q.empty())
                     {
                         vector<int> top = q.front();
@@ -92,7 +92,7 @@ public:
                                     continue;
                                 }
                                 s.insert(x * n + y);
-                                q.push(vector<int>{x, y});
+                                q.push(vector<int>({x, y}));
                             }
                         }
                     }
@@ -116,11 +116,11 @@ public:
     }
     
     //多起点BFS
-    int maxDistance(vector<vector<int>> &grid)
+    int maxDistance(vector<vector<int> > &grid)
     {
         int m = (int)grid.size();
         int n = (int)grid[0].size();
-        queue<vector<int>> q;
+        queue<vector<int> > q;
         set<int> s;
         //可以将所有小岛先放到队列中
         for(int i=0; i<grid.size(); i++)
@@ -129,7 +129,7 @@ public:
             {
                 if(grid[i][j] == 1)
                 {
-                    q.push(vector<int>{i, j});
+                    q.push(vector<int>({i, j}));
                 }
                     
             }
@@ -154,7 +154,7 @@ public:
                             continue;
                         }
                         s.insert(x * n + y);
-                        q.push(vector<int>{x, y});
+                        q.push(vector<int>({x, y}));
                     }
                 }
             }
@@ -166,7 +166,7 @@ public:
     
     void run()
     {
-        vector<vector<int>> grid({{1,0,1},{0,0,0},{1,0,1}});
+        vector<vector<int> > grid({{1,0,1},{0,0,0},{1,0,1}});
         cout<<this->maxDistance(grid)<<endl;
     }
     

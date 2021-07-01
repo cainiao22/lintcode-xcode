@@ -32,33 +32,51 @@ class OrderAllocation
 {
 public:
     
+    int max = 0;
+    vector<int> result;
+    
     vector<int> orderAllocation(vector<vector<int>> &score)
     {
-        int N = (int)score.size();
-        vector<int> result(N);
-        //当前订单分配到哪里
-        vector<int> cur(N);
-        //司机是否占用
-        vector<bool> hold(N);
-        int i = 0;
-        int max = 0;
-        while(i < N)
+        vector<int> current;
+        vector<bool> assigned(score.size(), false);
+        this->dfs(score, current, 0, 0, assigned);
+        return result;
+    }
+    
+    
+    void dfs(vector<vector<int>> &score, vector<int> current, int cur,
+             int idx, vector<bool> &assigned)
+    {
+        if(idx >= score.size())
         {
-            cur[0] = i;
-            hold[i] = true;
-            int j = 1;
-            int k = 0;
-            while(j < N)
+            if(cur > max)
             {
-                
+                result = current;
+                max = cur;
+            }
+            return;
+        }
+        for(int i=0; i<assigned.size(); i++)
+        {
+            if(!assigned[i])
+            {
+                assigned[i] = true;
+                current.push_back(i);
+                dfs(score, current, cur + score[idx][i], idx+1, assigned);
+                current.pop_back();
+                assigned[i] = false;
             }
         }
-        
-        return result;
     }
     
     void run()
     {
-        
+        vector<vector<int>> score({{1,2,4},{7,11,16},{37,29,22}});
+        vector<int> result = this->orderAllocation(score);
+        for(int i=0; i<result.size(); i++)
+        {
+            cout<<result[i]<<'\t';
+        }
+        cout<<endl;
     }
 };
